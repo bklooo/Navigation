@@ -1,5 +1,386 @@
 {% extends "base.html" %}
 {% block body %}
     {% load static %}
-    <img src="{% static "images/bklooo_logo.png" %}" alt="冰阔落导航" width="80px", height="80px">
+    <div class="container">
+     <div class="row clearfix">
+         <div class="col-md-12 column">
+             <div class="row clearfix">
+                 <div class="col-md-8 column">
+                     <div class="page-header">
+                         <h1>
+                             冰阔落导航<small>--全网网址快速检索</small>
+                         </h1>
+                     </div>
+                 </div>
+                 <div class="col-md-4 column">
+                     <div class="btn-group">
+                         <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-left"></em> 左</button>
+                                 <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-center"></em> 中</button> 
+                                 <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-right"></em> 右</button>
+                                 <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-justify"></em> 全</button>
+                     </div>
+                 </div>
+             </div>
+             <nav class="navbar navbar-default" role="navigation">
+                 <div class="navbar-header">
+                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">首页</a>
+                 </div>
+                 
+                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                     <ul class="nav navbar-nav">
+                         <li class="active">
+                              <a href="#">最新</a>
+                         </li>
+                         <li>
+                              <a href="#">最热</a>
+                         </li>
+                         <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">搜索引擎<strong class="caret"></strong></a>
+                             <ul class="dropdown-menu">
+                                 <li>
+                                      <a href="#">百度</a>
+                                 </li>
+                                 <li>
+                                      <a href="#">搜狐</a>
+                                 </li>
+                                 <li>
+                                      <a href="#">360</a>
+                                 </li>
+                                           <li>
+                                                <a href="#">Bing</a>
+                                           </li>
+                                           <li>
+                                                <a href="#">谷歌</a>
+                                           </li>
+                                           
+                                 <li class="divider">
+                                 </li>
+                                 <li>
+                                      <a href="#">谷歌镜像1</a>
+                                 </li>
+                                 <li class="divider">
+                                 </li>
+                                 <li>
+                                      <a href="#">谷歌镜像2</a>
+                                 </li>
+                             </ul>
+                         </li>
+                     </ul>
+                     <form class="navbar-form navbar-left" role="search">
+                         <div class="form-group">
+                             <input type="text" class="form-control" />
+                         </div> <button type="submit" class="btn btn-default">搜索</button>
+                     </form>
+                     <ul class="nav navbar-nav navbar-right">
+                         <li>
+                              <a href="#">冰阔落的小站</a>
+                         </li>
+                         <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">资讯<strong class="caret"></strong></a>
+                             <ul class="dropdown-menu">
+                                 <li>
+                                      <a href="#">文章</a>
+                                 </li>
+                                 <li>
+                                      <a href="#">图片</a>
+                                 </li>
+                                 <li>
+                                      <a href="#">视频</a>
+                                 </li>
+                                 <li class="divider">
+                                 </li>
+                                 <li>
+                                      <a href="#">全部内容</a>
+                                 </li>
+                             </ul>
+                         </li>
+                     </ul>
+                 </div>
+                 
+             </nav>
+         </div>
+     </div>
+     <div class="row clearfix">
+         <div class="col-md-10 column">
+             <h3>
+                 分类
+             </h3>
+             <div class="row clearfix well">
+                 <div class="col-md-1 column">
+                      <span class="label label-danger">资源搜索</span>
+                 </div>
+                 <div class="col-md-1 column">
+                      <span class="label label-danger">生活购物</span>
+                 </div>
+                 <div class="col-md-1 column">
+                      <span class="label label-danger">影视视频</span>
+                 </div>
+                 <div class="col-md-1 column">
+                      <span class="label label-danger">设计素材</span>
+                 </div>
+                 <div class="col-md-1 column">
+                      <span class="label label-danger">技术开发</span>
+                 </div>
+                 <div class="col-md-1 column">
+                      <span class="label label-danger">软件工具</span>
+                 </div>
+                 <div class="col-md-1 column">
+                      <span class="label label-danger">媒体运营</span>
+                 </div>
+                 <div class="col-md-1 column">
+                      <span class="label label-danger">娱乐风向</span>
+                 </div>
+                 <div class="col-md-1 column">
+                      <span class="label label-danger">宅男福利</span>
+                 </div>
+                 <div class="col-md-1 column">
+                      <span class="label label-danger">小说漫画</span>
+                 </div>
+                 <div class="col-md-1 column">
+                      <span class="label label-danger">军事政治</span>
+                 </div>
+                 <div class="col-md-1 column">
+                      <span class="label label-danger">探索发现</span>
+                 </div>
+             </div>
+                  
+                  <div class="row clearfix">
+                       <div class="col-md-10 column">
+                       <h3>
+                            <span class="glyphicon glyphicon-search"></span>&nbsp;&nbsp;资源搜索
+                       </h3>
+                       </div>
+                       <div class="col-md-2 column text-center">
+                            <blockquote><p><a href="#" class="text-warning">更多</a></p></blockquote>
+                       </div>
+                  </div>
+             <div class="row clearfix">
+                 <div class="col-md-12 column">
+                     <table class="table table-bordered table-hover">
+                         <tbody>
+                           <tr>
+                             <td>网址</td>
+                             <td>网址</td>
+                             <td>网址</td>
+                                      <td>网址</td>
+                                      <td>网址</td>
+                                      <td>网址</td>
+                                      <td>网址</td>
+                                      <td>网址</td>
+                                      <td>网址</td>
+                           </tr>
+                           <tr>
+                             <td>网址</td>
+                             <td>网址</td>
+                             <td>网址</td>
+                             <td>网址</td>
+                             <td>网址</td>
+                             <td>网址</td>
+                             <td>网址</td>
+                             <td>网址</td>
+                             <td>网址</td>
+                           </tr>
+                           <tr>
+                             <td>网址</td>
+                             <td>网址</td>
+                             <td>网址</td>
+                             <td>网址</td>
+                             <td>网址</td>
+                             <td>网址</td>
+                             <td>网址</td>
+                             <td>网址</td>
+                             <td>网址</td>
+                           </tr>
+                                   <tr>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                   </tr>
+                                   <tr>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                   </tr>
+                                   <tr>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                     <td>网址</td>
+                                   </tr>
+                         </tbody>
+                     </table>
+                 </div>
+                 
+             </div>
+         </div>
+             
+             
+         <div class="col-md-2 column">
+                  <!-- 标签开始 -->
+             <div class="row clearfix">
+                 <div class="col-md-4 column">
+                            <span class="label label-primary">探索发现</span>
+                 </div>
+                 <div class="col-md-4 column">
+                            <span class="label label-success">探索发现</span>
+                 </div>
+                 <div class="col-md-4 column">
+                            <span class="label label-warning">探索发现</span>
+                 </div>
+             </div>
+                  <br />
+                  <div class="row clearfix">
+                       <div class="col-md-4 column">
+                            <span class="label label-warning">探索发现</span>
+                       </div>
+                      <div class="col-md-4 column">
+                            <span class="label label-primary">探索发现</span>
+                      </div>
+                      <div class="col-md-4 column">
+                            <span class="label label-success">探索发现</span>
+                      </div>
+                  </div>
+                  <br />
+                  <div class="row clearfix">
+                       <div class="col-md-4 column">
+                            <span class="label label-success">探索发现</span>
+                       </div>
+                       <div class="col-md-4 column">
+                            <span class="label label-warning">探索发现</span>
+                       </div>
+                      <div class="col-md-4 column">
+                            <span class="label label-primary">探索发现</span>
+                      </div>
+                  </div>
+                  <br />
+                  <div class="row clearfix">
+                      <div class="col-md-4 column">
+                            <span class="label label-primary">探索发现</span>
+                      </div>
+                      <div class="col-md-4 column">
+                            <span class="label label-success">探索发现</span>
+                      </div>
+                      <div class="col-md-4 column">
+                            <span class="label label-warning">探索发现</span>
+                      </div>
+                  </div>
+                  <br />
+                  <div class="row clearfix">
+                       <div class="col-md-4 column">
+                            <span class="label label-warning">探索发现</span>
+                       </div>
+                      <div class="col-md-4 column">
+                            <span class="label label-primary">探索发现</span>
+                      </div>
+                      <div class="col-md-4 column">
+                            <span class="label label-success">探索发现</span>
+                      </div>
+                  </div>
+                  <br />
+                  <div class="row clearfix">
+                       <div class="col-md-4 column">
+                            <span class="label label-success">探索发现</span>
+                       </div>
+                       <div class="col-md-4 column">
+                            <span class="label label-warning">探索发现</span>
+                       </div>
+                      <div class="col-md-4 column">
+                            <span class="label label-primary">探索发现</span>
+                      </div>
+                  </div>
+                  <br />
+                  <div class="row clearfix">
+                      <div class="col-md-4 column">
+                            <span class="label label-primary">探索发现</span>
+                      </div>
+                      <div class="col-md-4 column">
+                            <span class="label label-success">探索发现</span>
+                      </div>
+                      <div class="col-md-4 column">
+                            <span class="label label-warning">探索发现</span>
+                      </div>
+                  </div>
+                  <br />
+                  <div class="row clearfix">
+                       <div class="col-md-4 column">
+                            <span class="label label-warning">探索发现</span>
+                       </div>
+                      <div class="col-md-4 column">
+                            <span class="label label-primary">探索发现</span>
+                      </div>
+                      <div class="col-md-4 column">
+                            <span class="label label-success">探索发现</span>
+                      </div>
+                  </div>
+                  <br />
+                  <div class="row clearfix">
+                       <div class="col-md-4 column">
+                            <span class="label label-success">探索发现</span>
+                       </div>
+                       <div class="col-md-4 column">
+                            <span class="label label-warning">探索发现</span>
+                       </div>
+                      <div class="col-md-4 column">
+                            <span class="label label-primary">探索发现</span>
+                      </div>
+                  </div>
+                  <br />
+                  <div class="row clearfix">
+                      <div class="col-md-4 column">
+                            <span class="label label-primary">探索发现</span>
+                      </div>
+                      <div class="col-md-4 column">
+                            <span class="label label-success">探索发现</span>
+                      </div>
+                      <div class="col-md-4 column">
+                            <span class="label label-warning">探索发现</span>
+                      </div>
+                  </div>
+                  <br />
+                  <div class="row clearfix">
+                       <div class="col-md-4 column">
+                            <span class="label label-warning">探索发现</span>
+                       </div>
+                      <div class="col-md-4 column">
+                            <span class="label label-primary">探索发现</span>
+                      </div>
+                      <div class="col-md-4 column">
+                            <span class="label label-success">探索发现</span>
+                      </div>
+                  </div>
+                  <br />
+                  <div class="row clearfix">
+                       <div class="col-md-4 column">
+                            <span class="label label-success">探索发现</span>
+                       </div>
+                       <div class="col-md-4 column">
+                            <span class="label label-warning">探索发现</span>
+                       </div>
+                      <div class="col-md-4 column">
+                            <span class="label label-primary">探索发现</span>
+                      </div>
+                  </div>
+                  <!-- 标签结束 -->
+         </div>
+             
+             
+     </div>
+ </div>
 {% endblock body %}
