@@ -1,0 +1,7 @@
+{
+    "classification_1": {
+        "w1": {"name": "百度", "url": "www.baidu.com"},
+        "w2": {"name": "谷歌", "url": "www.google.com"},
+        "w3": {"name": "必应", "url": "www.bing.com"}
+    }
+}
