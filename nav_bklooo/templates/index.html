@@ -131,9 +131,9 @@
                             <table class="table table-bordered table-hover">
                                 <tbody id="website">
                                     {% for i in loop_list6 %}
-                                  <tr>
+                                  <tr id="tr{{forloop.counter}}">
                                     {% for j in loop_list9 %}
-                                    <td id="w1"><img src="/static/images/bkl_web_icon.png" alt="" class="img_web_icon"/>&nbsp;&nbsp;<a href="#classification_1" onclick="click_go_web()" class="website_name">网址</a></td>
+                                    <td id="td{{forloop.counter}}"><img src="/static/images/bkl_web_icon.png" alt="" class="img_web_icon"/>&nbsp;&nbsp;<a href="#classification_1" onclick="click_go_web()" class="website_name">网址</a></td>
                                     {% endfor %}
                                   </tr>
                                   {% endfor%}
