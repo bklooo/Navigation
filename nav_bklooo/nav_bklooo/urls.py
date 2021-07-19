@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from . import testdb, views, getUrl
+from . import testdb, views, getUrl, search
 
 # 所有的网页路径
 urlpatterns = [
@@ -23,4 +23,5 @@ urlpatterns = [
     path('testdb/', testdb.testdb),
     path('', views.index),
     path('geturl/', getUrl.get_url),
+    path('search/', search.searchAll),
 ]

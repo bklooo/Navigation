@@ -1,0 +1,16 @@
+{
+    "class_list": {
+        "资源搜索": "search", 
+        "生活购物": "shopping-cart", 
+        "影视视频": "film", 
+        "设计素材": "file", 
+        "技术开发": "wrench", 
+        "软件工具": "briefcase", 
+        "媒体运营": "facetime-video", 
+        "娱乐风向": "fire", 
+        "宅男福利": "heart", 
+        "小说漫画": "book", 
+        "军事政治": "screenshot", 
+        "探索发现": "flash"
+    }
+}
