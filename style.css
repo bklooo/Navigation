@@ -1,0 +1,124 @@
+/* 网址图标 */
+.img_web_icon {
+	width: 22px;
+	height: 22px;
+	background-color: white;
+	border-radius: 100%;
+}
+
+#more a:link {
+	text-decoration: none;
+}
+
+/* 已被访问过的 */
+/* #website a:visited {
+	  color: blue;
+	} */
+
+/* 将鼠标悬停在链接上 */
+#website a:hover {
+	  color: #d90000;
+	  border-radius: 20px;
+	  text-decoration: none;
+	}
+#more a:hover {
+	color: #d90000;
+	border-radius: 15px;
+	border: 1px solid #adadad;
+	padding: 10px;
+	text-decoration: none;
+}
+	
+/* 点击链接时 */
+#website a:active {
+	color: #000000;
+}
+#more a:active {
+	color: #000000;
+}
+
+/* 表格对齐 */
+#website td {
+	vertical-align: bottom;
+	text-align: center;
+	padding-top: 15px;
+}
+
+/* 网址名称 */
+.website_name {
+	text-decoration: none;
+	font-size: 10px;
+}
+
+#md_1 {
+	position: absolute;
+	top: 1%;
+}
+#md_2 {
+	position: absolute;
+	top: 8%;
+}
+#md_3 {
+	position: absolute;
+	top: 16%;
+}
+#md_4 {
+	position: absolute;
+	top: 24%;
+}
+#md_5 {
+	position: absolute;
+	top: 32%;
+}
+#md_6 {
+	position: absolute;
+	top: 40%;
+}
+#md_7 {
+	position: absolute;
+	top: 48%;
+}
+#md_8 {
+	position: absolute;
+	top: 56%;
+}
+#md_9 {
+	position: absolute;
+	top: 64%;
+}
+#md_10 {
+	position: absolute;
+	top: 72%;
+}
+#md_11 {
+	position: absolute;
+	top: 80%;
+}
+#md_12 {
+	position: absolute;
+	top: 88%;
+}
+
+#go_home {
+	position: fixed;
+	border-radius: 20px;
+	width: 60px;
+	height: 60px;
+	background: black;
+	opacity: 0.5;
+	cursor: pointer;
+	left: 90%;
+	top: 80%;
+}
+
+.go_home_icon {
+	top: 20px;
+	left: 19px;
+	font-size: 25px;
+	color: #FFFFFF;
+}
+
+#tag a:link {
+	text-decoration: none;
+	color: #FFFFFF;
+}
