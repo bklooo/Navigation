@@ -7,4 +7,4 @@ def searchAll(request):
         message = 'hello'
     else:
         message = 'bay'
-    return render(request, 's_result.html', message)
+    return render(request, 's_result.html', {"message": message})

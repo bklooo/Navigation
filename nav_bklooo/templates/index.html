@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block body %}
     {% load static %}
-    <body">
+    <body onload="load_site_name();">
         <div class="container">
             <div class="row clearfix">
                 <div class="col-md-12 column">
@@ -134,7 +134,7 @@
                                         {% for i in loop_list6 %}
                                     <tr id="tr{{forloop.counter}}">
                                         {% for j in loop_list9 %}
-                                        <td id="td{{forloop.counter}}"><img src="/static/images/bkl_web_icon.png" alt="" class="img_web_icon"/>&nbsp;&nbsp;<a style="cursor: pointer;" onclick="click_go_web()" class="website_name">网址</a></td>
+                                        <td id="td{{forloop.counter}}"><img src="/static/images/bkl_web_icon.png" alt="" class="img_web_icon"/>&nbsp;&nbsp;<a style="cursor: pointer;" onclick="click_go_web(this)" class="website_name">网址</a></td>
                                         {% endfor %}
                                     </tr>
                                     {% endfor%}
@@ -162,5 +162,10 @@
                         <!-- 标签结束 -->
             </div>
         </div>
+
+        <!-- 返回顶部 -->
+		<div id="go_home" onclick="javascript:document.body.scrollTop = document.documentElement.scrollTop = 0;">
+			<p class="glyphicon glyphicon-chevron-up go_home_icon"></p>
+		</div>
     </body>
 {% endblock body %}
