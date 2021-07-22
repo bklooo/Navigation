@@ -3,4 +3,4 @@
 
 
 运行：python manage.py runserver 域名:端口<br>
-[样式预览](https://bklooo.github.io/ "点击前往")
+[样式预览](https://bklooo.github.io/Navigation/ "点击前往")
