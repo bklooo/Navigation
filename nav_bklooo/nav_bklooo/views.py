@@ -10,9 +10,9 @@ def index(request):
     loop_list9 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     loop_list12 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
     tag_style = ['default', 'primary', 'success', 'info', 'warning', 'danger']
-    with open(os.path.join(__file__, "../json/class_list.json"), encoding='utf-8') as f:
+    with open(os.path.join(__file__, "../../statics/json/class_list.json"), encoding='utf-8') as f:
         class_list = json.load(f)['class_list']
-    with open(os.path.join(__file__, "../json/class_list.json"), encoding='utf-8') as f:
+    with open(os.path.join(__file__, "../../statics/json/class_list.json"), encoding='utf-8') as f:
         ran_web = json.load(f)
     re_dist = {
         'class_list': class_list,

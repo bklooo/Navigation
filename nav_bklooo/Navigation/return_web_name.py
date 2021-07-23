@@ -6,7 +6,7 @@ import json, os
 
 def getWebName(request):
     try:
-        with open(os.path.join(__file__, "../json/website.json"), encoding="utf-8") as f:
+        with open(os.path.join(__file__, "../../statics/json/website.json"), encoding="utf-8") as f:
             web_list = json.load(f)
             list = []
             for i in range(1, 13):

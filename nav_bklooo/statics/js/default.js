@@ -7,7 +7,7 @@ function click_go_web(obj)
 	var td_id = $(obj).parent().attr('id');
 	$.ajax({
 		type: "POST",
-		url: "geturl/",
+		url: "Navigation/geturl/",
 		data: "classification=" + classification + "&name=" + name + "&tr_id=" + tr_id + "&td_id=" + td_id,
 		success: function(msg){
 		  x = 'http://' + msg;
@@ -21,7 +21,7 @@ function load_site_name()
 {
 	$.ajax({
 		type: "GET",
-		url: "sitename/",
+		url: "Navigation/sitename/",
 		success: function(msg){
 			if (msg != "error") {
 				var namelist = msg.split(",");
