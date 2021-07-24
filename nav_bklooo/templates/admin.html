@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<title>管理员登录</title>
+<link href="/static/plugins/bootstrap-3.4.1-dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="/static/css/magicalcoder.css" rel="stylesheet"/>
+<script src="/static/js/json3.min.js"></script>
+<script src="/static/js/echarts.min.js"></script>
+<script src="/static/js/dataTool.min.js"></script>
+<script src="/static/js/popper.min.js"></script>
+<script src="/static/plugins/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+<script src="/static/js/common.js"></script>
+<script src="/static/js/magicalcoder.js"></script>
+<style>
+
+</style>
+
+</head>
+<body style="">
+<div id="magicalDragScene" class="mc-root mc-ui-absolute-pane" style="height: 712px;">
+	<form style="position: absolute; left: 31.9268%; top: 25.7746%; width: 31.9268%; height: 333px;" method="POST" action="login/">
+        {% csrf_token %}
+		<div class="mc-ui-absolute-pane" style="width: 99.8117%; height: 292px;">
+			<table class="table" style="position: absolute; left: 5.88972%; top: 7.64526%; width: 87.8193%;">
+				<thead>
+					<tr>
+						<th>
+							<p style="width: 19.0865%; height: 32px;">账号</p>
+						</th>
+						<th>
+							<input class="form-control" type="text" aria-describedby="emailHelp" name="user"/>
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<p style="width: 19.0865%;">密码</p>
+						</td>
+						<td>
+							<input class="form-control" style="width: 99.6271%;" type="password" aria-describedby="passwordHelp" name="password"/>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<button id="uuid84f503ca-2861-4030-bda4-def0ee4983be" class="btn btn-info" style="position: absolute; left: 69.697%; top: 68.2759%; width: 21.4145%;" type="submit">登录</button>
+		</div>
+	</form>
+	<h2 style="position: absolute; left: 31.9555%; top: 16.4326%; width: 19.8248%;">管理员登录页</h2>
+</div>
+<script>
+//以下脚本为标签属性转换成layui组件的还原过程
+//调试:打开浏览器控制台(F12),在代码中某行增加 debugger 即可调试
+//echarts自动初始化
+new McECharts().render();
+
+</script>
+</body>
+
+</html>
