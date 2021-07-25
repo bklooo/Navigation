@@ -8,4 +8,4 @@
 后台地址：域名:端口/admin<br>
 默认账号：admin<br>
 默认密码：bklooo<br>
-在nav.bklooo/setting.json中更改默认设置<br>
+在nav_bklooo/setting.json中更改默认设置<br>
