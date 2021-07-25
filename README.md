@@ -4,3 +4,8 @@
 
 运行：python manage.py runserver 域名:端口<br>
 [样式预览](https://bklooo.github.io/Navigation/ "点击前往")
+
+后台地址：域名:端口/admin
+默认账号：admin
+默认密码：bklooo
+在nav.bklooo/setting.json中更改默认设置
