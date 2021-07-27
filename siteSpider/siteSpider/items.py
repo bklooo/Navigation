@@ -11,3 +11,4 @@ class SitespiderItem(scrapy.Item):
     link = scrapy.Field()
     icon = scrapy.Field()
     info = scrapy.Field()
+    time = scrapy.Field()
