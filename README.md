@@ -21,6 +21,7 @@
 
 ##### 方法二
 运行爬虫：scrapy crawl navbot_1 -O website.csv即可得到最新的网页数据，然后将csv文件导入到数据库中即可更新网站数据，在数据库中需要自行设置网站分类<br>
+// 爬虫所在的目录：Navigation\siteSpider\siteSpider\spiders\navbot_1.py<br>
 运行爬虫需要安装scrapy，且测试使用的是2.4版本，请尽量保持版本一致，运行命令：pip install scrapy==2.4（如若安装失败，可以到官网下载安装，需要提前准备好环境和依赖）<br>
 
 ##### 方法三
