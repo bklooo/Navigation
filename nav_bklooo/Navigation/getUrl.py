@@ -2,7 +2,8 @@
 
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
-import json, os
+from Navigation.models import msg
+import json, os, random
 
 @csrf_exempt
 def get_url(request):
@@ -18,3 +19,7 @@ def get_url(request):
                 return HttpResponse([website[classification][tr_id][td_id]['url']])
 
 
+def get_ran_site(raquest):
+    listall = msg.objects.all()[0:120].values_list('name', 'link')
+    x = random.sample(list(listall), 36)
+    return HttpResponse(x)

@@ -6,4 +6,5 @@ urlpatterns = [
     re_path(r'geturl/', getUrl.get_url),
     re_path(r'search/', search.searchAll),
     re_path(r'sitename/', return_web_name.getWebName),
+    re_path(r'ransite/', getUrl.get_ran_site),
 ]

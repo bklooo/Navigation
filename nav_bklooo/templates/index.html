@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block body %}
     {% load static %}
-    <body onload="load_site_name();">
+    <body>
         <div class="container">
             <div class="row clearfix">
                 <div class="col-md-12 column">
@@ -107,11 +107,17 @@
                         分类
                     </h3>
                     <div class="row clearfix well">
-                        {% for i in class_list%}
-                        <div class="col-md-1 column">
-                            <span ><a href="#md_{{forloop.counter}}" class="label label-danger">{{i}}</a></span>
-                        </div>
-                        {% endfor %}
+                            <table class="table table">
+                                <tbody>
+                                    <tr>
+                                        {% for i in class_list%}
+                                        <td>
+                                            <span ><a href="#md_{{forloop.counter}}" class="label label-danger">{{i}}</a></span>
+                                        </td>
+                                        {% endfor %}
+                                    </tr>
+                                </tbody>
+                            </table>
                     </div>
                     
                     {% for i, j in class_list.items%}
@@ -148,16 +154,20 @@
 
                         <!-- 标签开始 -->
                         <div class="col-md-2 column" id="tag">
-                            {% for i in loop_list12 %}
-                            <div class="row clearfix">
-                                {% for j in loop_list3%}
-                                <div class="col-md-4 column">
-                                    <a href="{{random_website}}" class="label label-{{tag_style}}">123</a>
-                                </div>
-                                {% endfor%}
-                            </div>
-                            <br />
-                            {% endfor %}
+                            <h4>随机网址</h4>
+                            <table class="table table-bordered">
+                                <tbody>
+                                    {% for i in loop_list12 %}
+                                    <tr>
+                                        {% for j in loop_list3%}
+                                        <td>
+                                            <a href="#" target="_blank" class="label label-{{tag_style}}">网址</a>
+                                        </td>
+                                        {% endfor%}
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
                         </div>
                         <!-- 标签结束 -->
             </div>
