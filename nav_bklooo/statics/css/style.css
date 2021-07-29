@@ -107,7 +107,7 @@
 	background: black;
 	opacity: 0.5;
 	cursor: pointer;
-	left: 90%;
+	left: 80%;
 	top: 80%;
 }
 
@@ -121,4 +121,8 @@
 #tag a:link {
 	text-decoration: none;
 	color: #FFFFFF;
+}
+
+.floattag {
+	float: left;
 }
