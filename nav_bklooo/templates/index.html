@@ -30,44 +30,45 @@
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
                                 <li class="active">
-                                    <a href="#">最新</a>
+                                    <a href="#" target="_blank">最新</a>
                                 </li>
                                 <li>
-                                    <a href="#">最热</a>
+                                    <a href="#" target="_blank">最热</a>
                                 </li>
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">搜索引擎<strong class="caret"></strong></a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a href="https://www.baidu.com/">百度</a>
+                                            <a href="https://www.baidu.com/" target="_blank">百度</a>
                                         </li>
                                         <li>
-                                            <a href="https://www.sogou.com/">搜狗</a>
+                                            <a href="https://www.sogou.com/" target="_blank">搜狗</a>
                                         </li>
                                         <li>
-                                            <a href="https://www.so.com/">360</a>
+                                            <a href="https://www.so.com/" target="_blank">360</a>
                                         </li>
                                         <li>
-                                            <a href="https://cn.bing.com/">Bing</a>
+                                            <a href="https://cn.bing.com/" target="_blank">Bing</a>
                                         </li>
                                         <li>
-                                            <a href="https://www.google.com/">谷歌</a>
+                                            <a href="https://www.google.com/" target="_blank">谷歌</a>
                                         </li>
                                         
                                         <li class="divider">
                                         </li>
                                         <li>
-                                            <a href="https://so.hiqq.com.cn/">谷歌镜像1</a>
+                                            <a href="https://so.hiqq.com.cn/" target="_blank">谷歌镜像1</a>
                                         </li>
                                         <li class="divider">
                                         </li>
                                         <li>
-                                            <a href="https://so.niostack.com/">谷歌镜像2</a>
+                                            <a href="https://so.niostack.com/" target="_blank">谷歌镜像2</a>
                                         </li>
                                     </ul>
                                 </li>
                             </ul>
-                            <form class="navbar-form navbar-left" role="search" action="search/">
+                            <form class="navbar-form navbar-left" role="search" action="Navigation/search/" method="POST">
+                                {% csrf_token %}
                                 <div class="form-group">
                                     <input type="text" name="s" class="form-control"/>
                                 </div> <button type="submit" class="btn btn-default">站内搜索</button>
@@ -80,18 +81,18 @@
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">资讯<strong class="caret"></strong></a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a href="#">文章</a>
+                                            <a href="#" target="_blank">文章</a>
                                         </li>
                                         <li>
-                                            <a href="#">图片</a>
+                                            <a href="#" target="_blank">图片</a>
                                         </li>
                                         <li>
-                                            <a href="#">视频</a>
+                                            <a href="#" target="_blank">视频</a>
                                         </li>
                                         <li class="divider">
                                         </li>
                                         <li>
-                                            <a href="#">全部内容</a>
+                                            <a href="#" target="_blank">全部内容</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -106,8 +107,8 @@
                     <h3>
                         分类
                     </h3>
-                    <div class="row clearfix well">
-                            <table class="table table">
+                    <!-- <div class="row clearfix well"> -->
+                            <table class="table">
                                 <tbody>
                                     <tr>
                                         {% for i in class_list%}
@@ -118,7 +119,7 @@
                                     </tr>
                                 </tbody>
                             </table>
-                    </div>
+                    <!-- </div> -->
                     
                     {% for i, j in class_list.items%}
                     <!-- 资源搜索 -->

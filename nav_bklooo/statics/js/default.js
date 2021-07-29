@@ -1,4 +1,4 @@
-// 点击获取网址
+// 点击跳转网址
 function click_go_web(obj)
 {
 	var classification = $(obj).parent().parent().parent().parent().parent().parent().prev().children().children().attr('id');
@@ -8,6 +8,7 @@ function click_go_web(obj)
 	$.ajax({
 		type: "POST",
 		url: "Navigation/geturl/",
+		headers:{ "X-CSRFtoken":$.cookie("csrftoken")},
 		data: "classification=" + classification + "&name=" + name + "&tr_id=" + tr_id + "&td_id=" + td_id,
 		success: function(msg){
 		  x = 'http://' + msg;
@@ -16,7 +17,7 @@ function click_go_web(obj)
 	 });
 }
 
-// 加载网址资源
+// 加载站名
 function load_site_name()
 {
 	$.ajax({
@@ -41,6 +42,7 @@ function load_site_name()
 	})
 }
 
+// 获取随机网址
 function getsite()
 {
 	$.ajax({
