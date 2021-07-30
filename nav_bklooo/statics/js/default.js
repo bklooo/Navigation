@@ -65,8 +65,3 @@ function getsite()
 		}
 	})
 }
-
-window.onload = function(){(
-	load_site_name(),
-	getsite()
-)};

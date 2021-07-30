@@ -126,3 +126,8 @@
 .floattag {
 	float: left;
 }
+
+.lowtip {
+	float: left;
+	margin-bottom: 0px;
+}
