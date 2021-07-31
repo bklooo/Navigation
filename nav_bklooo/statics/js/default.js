@@ -65,3 +65,30 @@ function getsite()
 		}
 	})
 }
+
+// 改变背景色
+function changColor_1()
+{
+	var x = document.body
+	x.style.backgroundColor = "#C0C0C0";
+}
+function changColor_2()
+{
+	var x = document.body
+	x.style.backgroundColor = "#87CEEB";
+}
+function changColor_3()
+{
+	var x = document.body
+	x.style.backgroundColor = "#FFFFF0";
+}
+function changColor_4()
+{
+	var x = document.body
+	x.style.backgroundColor = "#FFF0F5";
+}
+function changColor_5()
+{
+	var x = document.body
+	x.style.backgroundColor = "#FFFFFF";
+}
