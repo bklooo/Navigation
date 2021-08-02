@@ -1,5 +1,5 @@
 from django.urls import re_path
-from . import getUrl, search, return_web_name, more
+from . import getUrl, search, return_web_name, more, UHP
 
 # 所有的网页路径
 urlpatterns = [
@@ -8,4 +8,5 @@ urlpatterns = [
     re_path(r'sitename/', return_web_name.getWebName),
     re_path(r'ransite/', getUrl.get_ran_site),
     re_path(r'more/', more.more),
+    re_path(r'updata/', UHP.updateWeb),
 ]
