@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block body %}
+    {% load static %}
+    <body>
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-md-12 column">
+                <h3>
+                    {{classification}}
+                </h3>
+            </div>
+        </div>
+        <br>
+        <br>
+        <p>{{null}}</p>
+        <div class="row clearfix">
+            {% for i in result %}
+            <div class="col-md-12 column">
+                <blockquote>
+                    <p>
+                        <img src="{{ i.icon|default:"/static/images/bkl_web_icon.png" }}" alt="" class="img_web_icon"/>&nbsp;&nbsp;<a href="{{ i.link }}" class="btn btn-danger btn-default" role="button" target="_blank">{{ i.name }}</a>
+                    </p>
+                    <small>
+                        更新时间：{{i.time}}
+                        <br>
+                        分类：<cite>{{i.type}}</cite>
+                        <br>
+                         简介：<cite>{{i.info}}</cite>
+                    </small>
+                </blockquote>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <!-- 返回顶部 -->
+    <div id="go_home" onclick="javascript:document.body.scrollTop = document.documentElement.scrollTop = 0;">
+        <p class="glyphicon glyphicon-chevron-up go_home_icon"></p>
+    </div>
+    <!-- 页尾 -->
+    <footer class="panel-footer footer">
+        <p>
+                <em>本站内容全部采集于网络，</em> <strong>如有侵权请及时联系删除。</strong> 访问本站请遵守基本的互联网规则，请勿利用本站做非法用途。 <small>程序采用开源的方式分享在</small> <strong>Github</strong> 社区中，并持续为社区活跃提供技术支持。在享有便利的同时请不要对本站进行恶意攻击。
+        </p>
+    </footer>
+</body>
+{% endblock body %}
