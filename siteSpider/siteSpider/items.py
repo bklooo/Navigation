@@ -8,6 +8,7 @@ import scrapy
 
 class SitespiderItem(scrapy.Item):
     name = scrapy.Field()
+    type = scrapy.Field()
     link = scrapy.Field()
     icon = scrapy.Field()
     info = scrapy.Field()
