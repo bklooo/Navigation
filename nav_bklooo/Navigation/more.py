@@ -8,7 +8,7 @@ def more(request):
     if request.GET['class']:
         r = request.GET['class']
         data = urllib.parse.unquote(r)
-        msglist = msg.objects.all().values()
+        msglist = msg.objects.all().order_by("-time").values()
         result = []
         for i in msglist:
             if data == i['type']:

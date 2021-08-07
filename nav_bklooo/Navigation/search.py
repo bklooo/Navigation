@@ -7,7 +7,7 @@ def searchAll(request):
     request.encoding = 'utf-8'
     if request.POST['s']:
         s = request.POST['s']
-        msglist = msg.objects.all().values()
+        msglist = msg.objects.all().order_by("-time").values()
         result = []
         for i in msglist:
             if s in i['name']:

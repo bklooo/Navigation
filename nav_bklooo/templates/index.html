@@ -166,7 +166,8 @@
                                         {% for i in loop_list6 %}
                                     <tr id="tr{{forloop.counter}}">
                                         {% for j in loop_list9 %}
-                                        <td id="td{{forloop.counter}}"><img src="/static/images/bkl_web_icon.png" alt="" class="img_web_icon"/>&nbsp;&nbsp;<a style="cursor: pointer;" onclick="click_go_web(this)" class="website_name">网址</a></td>
+                                        <!-- <img src="/static/images/bkl_web_icon.png" alt="" class="img_web_icon"/>&nbsp;&nbsp; 添加图片 -->
+                                        <td id="td{{forloop.counter}}"><a style="cursor: pointer;" onclick="click_go_web(this)" class="website_name">网址</a></td>
                                         {% endfor %}
                                     </tr>
                                     {% endfor%}
