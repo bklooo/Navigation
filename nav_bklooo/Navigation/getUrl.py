@@ -12,7 +12,7 @@ def get_url(request):
         website = json.load(f)
         if classification is not None and name is not None and tr_id is not None and td_id is not None:
             if name == website[classification][tr_id][td_id]['name']:
-                return HttpResponse([website[classification][tr_id][td_id]['url']])
+                return HttpResponse([website[classification][tr_id][td_id]['link']])
 
 
 def get_ran_site(request):

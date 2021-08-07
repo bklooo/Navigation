@@ -7,7 +7,7 @@ from django.http import HttpResponse
 
 
 def updateWeb(request):
-    msglist = msg.objects.all().values()
+    msglist = msg.objects.all().values('name', 'link', 'icon', 'type')
     cdic = {}
     for i in range(1, 13):
         cdic['c'+str(i)] = []
@@ -18,7 +18,7 @@ def updateWeb(request):
             klist.append(k)
         for each in msglist:
             if(each['type'] == klist[0]):
-                cdic['c1'].apend(each)
+                cdic['c1'].append(each)
             elif(each['type'] == klist[1]):
                 cdic['c2'].append(each)
             elif(each['type'] == klist[2]):
@@ -41,17 +41,20 @@ def updateWeb(request):
                 cdic['c11'].append(each)
             elif(each['type'] == klist[11]):
                 cdic['c12'].append(each)
-    with open(os.path.join(__file__, "../../statics/json/website.json"), 'w+', encoding="utf-8") as f:
+    with open(os.path.join(__file__, "../../statics/json/website.json"), 'w+', encoding='utf-8') as f:
         data = {}
-        id = 0
         for i in range(1, 13):
-            x = "classification" + str(i)
+            id = 0
+            x = "classification_" + str(i)
+            data[x] = {}
             perlist = random.sample(cdic['c'+str(i)], 54)
+            print(perlist)
             for j in range(1, 7):
-                y = "tr" + j
+                y = "tr" + str(j)
+                data[x][y] = {}
                 for k in range(1, 10):
-                    z = "td" + k
+                    z = "td" + str(k)
                     data[x][y][z] = perlist[id]
                     id += 1
-        f.write(data)
+        json.dump(data, f, ensure_ascii=False)
     return HttpResponse('ok')

@@ -11,7 +11,7 @@ function click_go_web(obj)
 		headers:{ "X-CSRFtoken":$.cookie("csrftoken")},
 		data: "classification=" + classification + "&name=" + name + "&tr_id=" + tr_id + "&td_id=" + td_id,
 		success: function(msg){
-		  x = 'http://' + msg;
+		  x = msg;
 		  window.open(x); 
 		}
 	 });
