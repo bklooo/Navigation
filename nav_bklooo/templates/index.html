@@ -159,14 +159,14 @@
                                 <blockquote><p><a href="Navigation/more/?class={{i}}" class="text-warning">更多</a></p></blockquote>
                             </div>
                         </div>
-                        <div id="class_all_{{forloop.counter}}" class="row clearfix">
+                        <div id="class_all_{{forloop.counter}}" class="row clearfix" style="height: auto;width: 950px;">
                             <div class="col-md-12 column">
                                 <table class="table table-bordered table-hover">
                                     <tbody id="website">
                                         {% for i in loop_list6 %}
                                     <tr id="tr{{forloop.counter}}">
                                         {% for j in loop_list9 %}
-                                        <!-- <img src="/static/images/bkl_web_icon.png" alt="" class="img_web_icon"/>&nbsp;&nbsp; 添加图片 -->
+                                        <!-- <img src="/static/images/bkl_web_icon.png" alt="" class="img_web_icon"/>&nbsp;&nbsp;  -->
                                         <td id="td{{forloop.counter}}"><a style="cursor: pointer;" onclick="click_go_web(this)" class="website_name">网址</a></td>
                                         {% endfor %}
                                     </tr>
