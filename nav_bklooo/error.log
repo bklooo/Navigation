@@ -1,0 +1,731 @@
+2021-08-11 00:02:28.435249: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 00:02:28.443232: wfastcgi.py 3.0.0 initialized
+2021-08-11 00:02:29.668188: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 00:02:29.673174: wfastcgi.py 3.0.0 initialized
+2021-08-11 00:04:37.782388: wfastcgi.py exiting because web.config has changed, matching .*((\.py)|(\.config))$
+2021-08-11 00:04:37.782388: wfastcgi.py exiting because web.config has changed, matching .*((\.py)|(\.config))$
+2021-08-11 00:04:37.789369: Running on_exit tasks
+2021-08-11 00:04:42.463112: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 00:04:42.471092: wfastcgi.py 3.0.0 initialized
+2021-08-11 00:04:43.443451: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 00:04:43.443451: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 00:04:43.452445: wfastcgi.py 3.0.0 initialized
+2021-08-11 00:04:43.452445: wfastcgi.py 3.0.0 initialized
+2021-08-11 00:05:18.677182: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 00:05:18.685160: wfastcgi.py 3.0.0 initialized
+2021-08-11 00:05:19.545865: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 00:05:19.549855: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 00:05:19.555838: wfastcgi.py 3.0.0 initialized
+2021-08-11 00:05:19.559827: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 00:05:19.566809: wfastcgi.py 3.0.0 initialized
+2021-08-11 00:15:10.962590: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 00:15:10.966579: wfastcgi.py 3.0.0 initialized
+2021-08-11 00:15:11.279681: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 00:15:11.283707: wfastcgi.py 3.0.0 initialized
+2021-08-11 00:24:41.277012: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 00:24:41.282004: wfastcgi.py 3.0.0 initialized
+2021-08-11 00:24:42.117236: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 00:24:42.122222: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 00:24:42.127208: wfastcgi.py 3.0.0 initialized
+2021-08-11 00:28:16.945867: wfastcgi.py exiting because nav_bklooo\settings.py has changed, matching .*((\.py)|(\.config))$
+2021-08-11 00:28:16.952821: Running on_exit tasks
+2021-08-11 00:29:00.434536: Error occurred while reading WSGI handler:
+
+Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 605, in get_wsgi_handler
+    handler = handler()
+  File "E:\python\lib\site-packages\django\core\wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "E:\python\lib\site-packages\django\__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "E:\python\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File ".\nav_bklooo\settings.py", line 128
+    STATICFILES_DIRS = ['D:\PythonProject\Navigation\nav_bklooo\statics']
+                        ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 16-17: malformed \N character escape
+
+
+StdOut: 
+
+StdErr: 
+2021-08-11 00:29:00.439559: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 605, in get_wsgi_handler
+    handler = handler()
+  File "E:\python\lib\site-packages\django\core\wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "E:\python\lib\site-packages\django\__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "E:\python\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File ".\nav_bklooo\settings.py", line 128
+    STATICFILES_DIRS = ['D:\PythonProject\Navigation\nav_bklooo\statics']
+                        ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 16-17: malformed \N character escape
+2021-08-11 00:29:00.444519: Running on_exit tasks
+2021-08-11 00:29:00.450503: wfastcgi.py 3.0.0 closed
+2021-08-11 00:30:22.761670: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 605, in get_wsgi_handler
+    handler = handler()
+  File "E:\python\lib\site-packages\django\core\wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "E:\python\lib\site-packages\django\__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "E:\python\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File ".\nav_bklooo\settings.py", line 128
+    STATICFILES_DIRS = ['D:\PythonProject\Navigation\nav_bklooo\statics']  # windows路径
+                        ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 16-17: malformed \N character escape
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1970-1971: ordinal not in range(256)
+2021-08-11 00:30:22.766622: Running on_exit tasks
+2021-08-11 00:30:22.769615: wfastcgi.py 3.0.0 closed
+2021-08-11 00:31:36.108336: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 605, in get_wsgi_handler
+    handler = handler()
+  File "E:\python\lib\site-packages\django\core\wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "E:\python\lib\site-packages\django\__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "E:\python\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File ".\nav_bklooo\settings.py", line 128
+    STATICFILES_DIRS = ['D:\PythonProject\Navigation\nav_bklooo\statics']  # windows路径
+                        ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 16-17: malformed \N character escape
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1970-1971: ordinal not in range(256)
+2021-08-11 00:31:36.112360: Running on_exit tasks
+2021-08-11 00:31:36.116351: wfastcgi.py 3.0.0 closed
+2021-08-11 00:33:44.208495: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 605, in get_wsgi_handler
+    handler = handler()
+  File "E:\python\lib\site-packages\django\core\wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "E:\python\lib\site-packages\django\__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "E:\python\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File ".\nav_bklooo\settings.py", line 128
+    STATICFILES_DIRS = ['D:\PythonProject\Navigation\nav_bklooo\statics']  # windows路径
+                        ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 16-17: malformed \N character escape
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1970-1971: ordinal not in range(256)
+2021-08-11 00:33:44.215475: Running on_exit tasks
+2021-08-11 00:33:44.219465: wfastcgi.py 3.0.0 closed
+2021-08-11 00:36:00.583369: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 605, in get_wsgi_handler
+    handler = handler()
+  File "E:\python\lib\site-packages\django\core\wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "E:\python\lib\site-packages\django\__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "E:\python\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File ".\nav_bklooo\settings.py", line 128
+    STATICFILES_DIRS = ['D:\PythonProject\Navigation\nav_bklooo\statics']  # windows路径
+                        ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 16-17: malformed \N character escape
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1970-1971: ordinal not in range(256)
+2021-08-11 00:36:00.588390: Running on_exit tasks
+2021-08-11 00:36:00.592383: wfastcgi.py 3.0.0 closed
+2021-08-11 00:36:02.015371: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 605, in get_wsgi_handler
+    handler = handler()
+  File "E:\python\lib\site-packages\django\core\wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "E:\python\lib\site-packages\django\__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "E:\python\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File ".\nav_bklooo\settings.py", line 128
+    STATICFILES_DIRS = ['D:\PythonProject\Navigation\nav_bklooo\statics']  # windows路径
+                        ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 16-17: malformed \N character escape
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1970-1971: ordinal not in range(256)
+2021-08-11 00:36:02.021353: Running on_exit tasks
+2021-08-11 00:36:02.025343: wfastcgi.py 3.0.0 closed
+2021-08-11 00:36:02.881850: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 605, in get_wsgi_handler
+    handler = handler()
+  File "E:\python\lib\site-packages\django\core\wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "E:\python\lib\site-packages\django\__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "E:\python\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File ".\nav_bklooo\settings.py", line 128
+    STATICFILES_DIRS = ['D:\PythonProject\Navigation\nav_bklooo\statics']  # windows路径
+                        ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 16-17: malformed \N character escape
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1970-1971: ordinal not in range(256)
+2021-08-11 00:36:02.888834: Running on_exit tasks
+2021-08-11 00:36:02.892820: wfastcgi.py 3.0.0 closed
+2021-08-11 00:36:11.761472: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 605, in get_wsgi_handler
+    handler = handler()
+  File "E:\python\lib\site-packages\django\core\wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "E:\python\lib\site-packages\django\__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "E:\python\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File ".\nav_bklooo\settings.py", line 128
+    STATICFILES_DIRS = ['D:\PythonProject\Navigation\nav_bklooo\statics']  # windows路径
+                        ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 16-17: malformed \N character escape
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1970-1971: ordinal not in range(256)
+2021-08-11 00:36:11.767457: Running on_exit tasks
+2021-08-11 00:36:11.772484: wfastcgi.py 3.0.0 closed
+2021-08-11 00:40:15.648658: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 605, in get_wsgi_handler
+    handler = handler()
+  File "E:\python\lib\site-packages\django\core\wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "E:\python\lib\site-packages\django\__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "E:\python\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File ".\nav_bklooo\settings.py", line 128
+    STATICFILES_DIRS = ['D:\PythonProject\Navigation\nav_bklooo\statics']  # windows路径
+                        ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 16-17: malformed \N character escape
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1970-1971: ordinal not in range(256)
+2021-08-11 00:40:15.654602: Running on_exit tasks
+2021-08-11 00:40:15.658591: wfastcgi.py 3.0.0 closed
+2021-08-11 00:40:17.055859: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 605, in get_wsgi_handler
+    handler = handler()
+  File "E:\python\lib\site-packages\django\core\wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "E:\python\lib\site-packages\django\__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "E:\python\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File ".\nav_bklooo\settings.py", line 128
+    STATICFILES_DIRS = ['D:\PythonProject\Navigation\nav_bklooo\statics']  # windows路径
+                        ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 16-17: malformed \N character escape
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1970-1971: ordinal not in range(256)
+2021-08-11 00:40:17.059848: Running on_exit tasks
+2021-08-11 00:40:17.064835: wfastcgi.py 3.0.0 closed
+2021-08-11 00:41:12.688029: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 605, in get_wsgi_handler
+    handler = handler()
+  File "E:\python\lib\site-packages\django\core\wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "E:\python\lib\site-packages\django\__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "E:\python\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File ".\nav_bklooo\settings.py", line 128
+    STATICFILES_DIRS = ['D:\PythonProject\Navigation\nav_bklooo\statics']  # windows路径
+                        ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 16-17: malformed \N character escape
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1970-1971: ordinal not in range(256)
+2021-08-11 00:41:12.693018: Running on_exit tasks
+2021-08-11 00:41:12.698040: wfastcgi.py 3.0.0 closed
+2021-08-11 00:41:13.463155: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 605, in get_wsgi_handler
+    handler = handler()
+  File "E:\python\lib\site-packages\django\core\wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "E:\python\lib\site-packages\django\__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "E:\python\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File ".\nav_bklooo\settings.py", line 128
+    STATICFILES_DIRS = ['D:\PythonProject\Navigation\nav_bklooo\statics']  # windows路径
+                        ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 16-17: malformed \N character escape
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1970-1971: ordinal not in range(256)
+2021-08-11 00:41:13.467145: Running on_exit tasks
+2021-08-11 00:41:13.471135: wfastcgi.py 3.0.0 closed
+2021-08-11 00:41:14.097979: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 605, in get_wsgi_handler
+    handler = handler()
+  File "E:\python\lib\site-packages\django\core\wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "E:\python\lib\site-packages\django\__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "E:\python\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File ".\nav_bklooo\settings.py", line 128
+    STATICFILES_DIRS = ['D:\PythonProject\Navigation\nav_bklooo\statics']  # windows路径
+                        ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 16-17: malformed \N character escape
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1970-1971: ordinal not in range(256)
+2021-08-11 00:41:14.101969: Running on_exit tasks
+2021-08-11 00:41:14.125900: wfastcgi.py 3.0.0 closed
+2021-08-11 00:41:14.647071: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 605, in get_wsgi_handler
+    handler = handler()
+  File "E:\python\lib\site-packages\django\core\wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "E:\python\lib\site-packages\django\__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "E:\python\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File ".\nav_bklooo\settings.py", line 128
+    STATICFILES_DIRS = ['D:\PythonProject\Navigation\nav_bklooo\statics']  # windows路径
+                        ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 16-17: malformed \N character escape
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1970-1971: ordinal not in range(256)
+2021-08-11 00:41:14.651061: Running on_exit tasks
+2021-08-11 00:41:14.655050: wfastcgi.py 3.0.0 closed
+2021-08-11 00:43:00.801598: Unhandled exception in wfastcgi.py: Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 791, in main
+    env, handler = read_wsgi_handler(response.physical_path)
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 633, in read_wsgi_handler
+    handler = get_wsgi_handler(os.getenv("WSGI_HANDLER"))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 605, in get_wsgi_handler
+    handler = handler()
+  File "E:\python\lib\site-packages\django\core\wsgi.py", line 12, in get_wsgi_application
+    django.setup(set_prefix=False)
+  File "E:\python\lib\site-packages\django\__init__.py", line 19, in setup
+    configure_logging(settings.LOGGING_CONFIG, settings.LOGGING)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 82, in __getattr__
+    self._setup(name)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 69, in _setup
+    self._wrapped = Settings(settings_module)
+  File "E:\python\lib\site-packages\django\conf\__init__.py", line 170, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "E:\python\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 916, in get_code
+  File "<frozen importlib._bootstrap_external>", line 846, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File ".\nav_bklooo\settings.py", line 128
+    STATICFILES_DIRS = ['D:\PythonProject\Navigation\nav_bklooo\statics']  # windows路径
+                        ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 16-17: malformed \N character escape
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 854, in main
+    result.close()
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 701, in __exit__
+    self.send(FCGI_STDERR, wsgi_encode(error_msg))
+  File "D:\PythonProject\Navigation\nav_bklooo\wfastcgi.py", line 126, in wsgi_encode
+    return x.encode('iso-8859-1')
+UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1970-1971: ordinal not in range(256)
+2021-08-11 00:43:00.807621: Running on_exit tasks
+2021-08-11 00:43:00.811571: wfastcgi.py 3.0.0 closed
+2021-08-11 00:52:26.555939: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 00:52:26.560926: wfastcgi.py 3.0.0 initialized
+2021-08-11 00:52:27.278358: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 00:52:27.278358: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 00:52:27.285974: wfastcgi.py 3.0.0 initialized
+2021-08-11 00:52:27.285974: wfastcgi.py 3.0.0 initialized
+2021-08-11 00:55:22.490111: wfastcgi.py exiting because nav_bklooo\settings.py has changed, matching .*((\.py)|(\.config))$
+2021-08-11 00:55:22.490111: wfastcgi.py exiting because nav_bklooo\settings.py has changed, matching .*((\.py)|(\.config))$
+2021-08-11 00:55:22.497092: Running on_exit tasks
+2021-08-11 00:55:25.040247: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 00:55:25.046231: wfastcgi.py 3.0.0 initialized
+2021-08-11 00:55:25.610545: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 00:55:25.610545: wfastcgi.py 3.0.0 initialized
