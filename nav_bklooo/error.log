@@ -729,3 +729,69 @@ UnicodeEncodeError: 'latin-1' codec can't encode characters in position 1970-197
 2021-08-11 00:55:25.046231: wfastcgi.py 3.0.0 initialized
 2021-08-11 00:55:25.610545: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
 2021-08-11 00:55:25.610545: wfastcgi.py 3.0.0 initialized
+2021-08-11 01:10:21.221391: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 01:10:21.228371: wfastcgi.py 3.0.0 initialized
+2021-08-11 01:10:21.911372: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 01:10:21.915362: wfastcgi.py 3.0.0 initialized
+2021-08-11 01:19:11.811684: wfastcgi.py exiting because nav_bklooo\settings.py has changed, matching .*((\.py)|(\.config))$
+2021-08-11 01:19:11.817703: Running on_exit tasks
+2021-08-11 01:19:16.369294: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 01:19:16.374246: wfastcgi.py 3.0.0 initialized
+2021-08-11 01:21:17.942748: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 01:21:17.947771: wfastcgi.py 3.0.0 initialized
+2021-08-11 09:07:55.860222: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 09:07:55.866139: wfastcgi.py 3.0.0 initialized
+2021-08-11 09:07:57.181549: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 09:07:57.191850: wfastcgi.py 3.0.0 initialized
+2021-08-11 10:45:01.961716: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 10:45:01.965705: wfastcgi.py 3.0.0 initialized
+2021-08-11 10:45:02.666052: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 10:45:02.670046: wfastcgi.py 3.0.0 initialized
+2021-08-11 14:42:59.597998: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 14:42:59.694698: wfastcgi.py 3.0.0 initialized
+2021-08-11 14:43:00.464907: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 14:43:00.468936: wfastcgi.py 3.0.0 initialized
+2021-08-11 15:04:39.392920: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 15:04:39.397913: wfastcgi.py 3.0.0 initialized
+2021-08-11 15:05:07.702005: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 15:05:07.707027: wfastcgi.py 3.0.0 initialized
+2021-08-11 15:18:56.450078: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 15:18:56.454070: wfastcgi.py 3.0.0 initialized
+2021-08-11 15:18:57.243119: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 15:18:57.249104: wfastcgi.py 3.0.0 initialized
+2021-08-11 15:26:44.982585: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 15:26:44.987572: wfastcgi.py 3.0.0 initialized
+2021-08-11 15:26:45.661530: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 15:26:45.665519: wfastcgi.py 3.0.0 initialized
+2021-08-11 15:57:43.126683: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 15:57:43.131669: wfastcgi.py 3.0.0 initialized
+2021-08-11 15:58:28.891058: wfastcgi.py exiting because web.config has changed, matching .*((\.py)|(\.config))$
+2021-08-11 15:58:28.896028: Running on_exit tasks
+2021-08-11 16:18:21.342230: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 16:18:21.346253: wfastcgi.py 3.0.0 initialized
+2021-08-11 16:20:02.202467: wfastcgi.py exiting because Navigation\web.config has changed, matching .*((\.py)|(\.config))$
+2021-08-11 16:20:02.206764: Running on_exit tasks
+2021-08-11 16:20:05.194310: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 16:20:05.200307: wfastcgi.py 3.0.0 initialized
+2021-08-11 16:20:06.002658: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 16:20:06.006648: wfastcgi.py 3.0.0 initialized
+2021-08-11 16:20:41.518764: wfastcgi.py exiting because web.config has changed, matching .*((\.py)|(\.config))$
+2021-08-11 16:20:41.522752: Running on_exit tasks
+2021-08-11 16:20:46.471592: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 16:20:46.475584: wfastcgi.py 3.0.0 initialized
+2021-08-11 16:20:47.360619: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 16:20:47.370590: wfastcgi.py 3.0.0 initialized
+2021-08-11 16:44:07.301285: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 16:44:07.306315: wfastcgi.py 3.0.0 initialized
+2021-08-11 16:44:08.917680: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 16:44:08.933237: wfastcgi.py 3.0.0 initialized
+2021-08-11 17:00:23.332612: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 17:00:23.337608: wfastcgi.py 3.0.0 initialized
+2021-08-11 17:21:07.053484: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 17:21:07.059469: wfastcgi.py 3.0.0 initialized
+2021-08-11 17:21:08.351471: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 17:21:08.351471: wfastcgi.py 3.0.0 initialized
+2021-08-11 17:28:45.763805: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 17:28:45.767830: wfastcgi.py 3.0.0 initialized
+2021-08-11 17:41:50.652600: wfastcgi.py will restart when files in D:\PythonProject\Navigation\nav_bklooo\ are changed: .*((\.py)|(\.config))$
+2021-08-11 17:41:50.656563: wfastcgi.py 3.0.0 initialized
