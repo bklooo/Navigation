@@ -1,20 +1,20 @@
 @echo OFF
 color 0a
-Title Sunny-NgrokÆô¶¯¹¤¾ß by Sunny
+Title Sunny-Ngrokå¯åŠ¨å·¥å…· by Sunny
 Mode con cols=109 lines=30
 :START
 ECHO.
 Echo                  ==========================================================================
 ECHO.
-Echo                                         Sunny-Ngrok¿Í»§¶ËÆô¶¯¹¤¾ß
+Echo                                         Sunny-Ngrokå®¢æˆ·ç«¯å¯åŠ¨å·¥å…·
 ECHO.
-Echo                                         ×÷Õß: Sunny QQ£º327388905
+Echo                                         ä½œè€…: Sunny QQï¼š327388905
 ECHO.
-Echo                                         ¹Ù·½QQÈº£º532387951£¨Ò»ºÅÈºÒÑÂú£© 276155731£¨¶şºÅÈº£©
+Echo                                         å®˜æ–¹QQç¾¤ï¼š532387951ï¼ˆä¸€å·ç¾¤å·²æ»¡ï¼‰ 276155731ï¼ˆäºŒå·ç¾¤ï¼‰
 ECHO.
-Echo                                         ¹ÙÍø£ºwww.ngrok.cc
+Echo                                         å®˜ç½‘ï¼šwww.ngrok.cc
 ECHO.
-Echo                                         ×÷Õß²©¿Í£ºwww.sunnyos.com
+Echo                                         ä½œè€…åšå®¢ï¼šwww.sunnyos.com
 ECHO.
 Echo                  ==========================================================================
 Echo.
@@ -22,7 +22,7 @@ echo.
 echo.
 :TUNNEL
 echo.
-sunny.exe clientid bc4467dde84a00b4
+sunny.exe clientid %clientid%
 PAUSE
 goto TUNNEL
 
