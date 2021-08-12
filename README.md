@@ -15,8 +15,8 @@
 使用我已经准备好的数据库，在database文件夹里有一个nav.bklooo.sql的文件，在mysql中运行sql文件即可导入数据库<br>
 默认的数据库信息：<br>
 数据库名：nav.bklooo<br>
-账号：admin    # 这个不是必须一样的，使用的是你创建数据库时的账号密码，在设置中更改即可<br>
-密码：bklooo<br>
+账号：xxx    # 这个不是必须一样的，使用的是你创建数据库时的账号密码，在设置中更改即可<br>
+密码：xxx<br>
 可在nav_bklooo/settings.py的DATABASES选项中更改默认设置<br>
 
 ##### 方法二
