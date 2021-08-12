@@ -79,8 +79,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'nav.bklooo',
-        'USER': 'root',
-        'PASSWORD': 'coolboy.',
+        'USER': '账号',
+        'PASSWORD': '密码',
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }
